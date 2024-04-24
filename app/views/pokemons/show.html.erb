@@ -1,0 +1,12 @@
+<h1><%= @pokemon.name %></h1>
+
+<ul>
+  <li><strong>Base Experience:</strong> <%= @pokemon.base_experience %></li>
+  <li><strong>Height:</strong> <%= @pokemon.height %> decimetres</li>
+  <li><strong>Weight:</strong> <%= @pokemon.weight %> hectograms</li>
+  <li><strong>Is Default:</strong> <%= @pokemon.is_default ? 'Yes' : 'No' %></li>
+  <li><strong>Order:</strong> <%= @pokemon.order %></li>
+  <li><strong>Category:</strong> <%= @pokemon.category.name %></li>
+</ul>
+
+<%= link_to 'Back', pokemons_path %>
