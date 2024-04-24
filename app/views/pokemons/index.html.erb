@@ -1,0 +1,25 @@
+<h1>Pokémons List</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @pokemons.each do |pokemon| %>
+      <tr>
+        <td><%= pokemon.id %></td>
+        <td><%= link_to pokemon.name, pokemon_path(pokemon) %></td>
+        <td><%= pokemon.category.name %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<%= form_with(url: pokemons_path, method: :post) do |form| %>
+  <%= form.submit 'Add Random Pokémon' %>
+<% end %>
+
