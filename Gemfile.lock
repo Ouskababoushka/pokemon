@@ -93,8 +93,6 @@ GEM
       irb (~> 1.10)
       reline (>= 0.3.8)
     diff-lcs (1.5.1)
-    dockerfile-rails (1.6.8)
-      rails (>= 3.0.0)
     erubi (1.12.0)
     factory_bot (6.4.6)
       activesupport (>= 5.0.0)
@@ -142,8 +140,6 @@ GEM
       net-protocol
     nio4r (2.7.1)
     nokogiri (1.16.4-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.16.4-x86_64-linux)
       racc (~> 1.4)
     pg (1.5.6)
     poke-api-v2 (0.1.1)
@@ -252,13 +248,11 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
   capybara
   debug
-  dockerfile-rails (>= 1.6)
   factory_bot_rails (~> 6.4)
   importmap-rails
   jbuilder
