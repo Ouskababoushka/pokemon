@@ -11,6 +11,7 @@ Rails.application.configure do
   # and those relying on copy on write to perform better.
   # Rake tasks automatically ignore this option for performance.
   config.eager_load = true
+  config.secret_key_base = ENV['SECRET_KEY_BASE']
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
@@ -90,6 +91,4 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
-
-  config.secret_key_base = ENV['SECRET_KEY_BASE']
 end
