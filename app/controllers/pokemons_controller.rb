@@ -45,8 +45,6 @@ class PokemonsController < ApplicationController
     end
   end
 
-
-
   private
 
   def get_random_pokemon
