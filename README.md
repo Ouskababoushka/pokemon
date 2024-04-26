@@ -20,7 +20,7 @@ Follow these steps to get your development environment running:
 
 
    ```bash
-   git clone https://yourrepositorylink.git
+   git clone https://pokemon.git
    cd yourrepositoryname
 
    # Install project dependencies
