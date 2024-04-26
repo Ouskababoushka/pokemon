@@ -21,7 +21,7 @@ Follow these steps to get your development environment running:
 
    ```bash
    git clone https://pokemon.git
-   cd yourrepositoryname
+   cd pokemon
 
    # Install project dependencies
    bundle install
