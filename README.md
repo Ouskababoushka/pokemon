@@ -2,8 +2,7 @@
 
 ## Prerequisites
 Before you begin, ensure you have met the following requirements:
-- **Operating System**: macOS
-- **Ruby**: Version 3.1.2. You can use Homebrew to install Ruby if it's not already installed:
+- **Ruby**: Version 3.1.2. You can use Homebrew (for macos) to install Ruby if it's not already installed:
   ```bash
   brew install ruby
   
