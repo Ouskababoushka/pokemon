@@ -3,7 +3,7 @@
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
-- macOS operating system, you can use Hombrew to install the followings.
+- On macOS operating system, you can use Hombrew to install the followings.
 - Ruby version 3.1.2
 - PostgreSQL installed (ensure it is running)
 - Bundler installed (run `gem install bundler` if you don't have it)
