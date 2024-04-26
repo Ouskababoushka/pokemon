@@ -12,15 +12,16 @@ Before you begin, ensure you have met the following requirements:
 
 Follow these steps to get your development environment running:
 
-1. **Clone the repository**:
+
    ```bash
    git clone https://yourrepositorylink.git
    cd yourrepositoryname
 
-2. 
-   ```bash
-  bundle install
-  rails db:create db:migrate
-  rails s
-  go to localhost:3000
+   # Install project dependencies
+   bundle install
+   # Create and migrate the database
+   rails db:create db:migrate
+   # Start the Rails server
+   rails s
+   # Now, open your web browser and go to http://localhost:3000
 
