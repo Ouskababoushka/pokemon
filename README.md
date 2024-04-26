@@ -1,12 +1,19 @@
 # README
 
 ## Prerequisites
-
 Before you begin, ensure you have met the following requirements:
-- On macOS operating system, you can use Hombrew to install the followings.
-- Ruby version 3.1.2
-- PostgreSQL installed (ensure it is running)
-- Bundler installed (run `gem install bundler` if you don't have it)
+- **Operating System**: macOS
+- **Ruby**: Version 3.1.2. You can use Homebrew to install Ruby if it's not already installed:
+  ```bash
+  brew install ruby
+  
+  # PostgreSQL: Ensure it is installed and running. Install it via Homebrew if needed:
+  brew install postgresql
+  brew services start postgresql
+  
+  #Bundler: Required for managing Ruby gems. Install it if you haven't already :
+  gem install bundler
+
 
 ## Installation
 
